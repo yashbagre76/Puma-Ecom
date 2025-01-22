@@ -13,21 +13,36 @@ const Winteraddition = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <img
-          src="\public\gettyimages-1815429049-612x612.jpg"
-          alt="winter"
-          className="w-full h-[700px] object-cover rounded-lg shadow-lg"
-        />
-        <img
-          src="\public\gettyimages-1996550450-612x612.jpg"
-          alt="clothings"
-          className="w-full h-[700px] object-cover rounded-lg shadow-lg"
-        />
-        <img
-          src="\public\gettyimages-2147889544-612x612.jpg"
-          alt="clothings"
-          className="w-full h-[700px] object-cover rounded-lg shadow-lg"
-        />
+        <div className="relative">
+          <img
+            src="\public\gettyimages-1815429049-612x612.jpg"
+            alt="winter"
+            className="w-full h-[700px] object-cover rounded-lg shadow-lg"
+          />
+          <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white text-xl font-bold p-4 rounded">
+            Winter Essentials
+          </div>
+        </div>
+        <div className="relative">
+          <img
+            src="\public\gettyimages-1996550450-612x612.jpg"
+            alt="clothings"
+            className="w-full h-[700px] object-cover rounded-lg shadow-lg"
+          />
+          <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white text-xl font-bold p-4 rounded">
+            Stylish Outerwear
+          </div>
+        </div>
+        <div className="relative">
+          <img
+            src="\public\gettyimages-2147889544-612x612.jpg"
+            alt="clothings"
+            className="w-full h-[700px] object-cover rounded-lg shadow-lg"
+          />
+          <div className="absolute bottom-4 left-4 bg-black bg-opacity-50 text-white text-xl font-bold p-4 rounded">
+            Cozy Knitwear
+          </div>
+        </div>
       </div>
     </div>
   );

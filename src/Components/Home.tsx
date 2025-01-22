@@ -6,6 +6,8 @@ import Spotlight from "./Spotlight";
 import Discount from "./Discount";
 import Evalute from "./Evalute";
 import Winteraddition from "./Winteraddition";
+import Colabs from "./Colabs";
+import Pvsandhu from "./Pvsandhu";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Discount />
       <Evalute />
       <Winteraddition />
+      <Colabs />
+      <Pvsandhu />
     </div>
   );
 };
