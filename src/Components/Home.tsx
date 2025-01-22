@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Spotlight from "./Spotlight";
 import Discount from "./Discount";
 import Evalute from "./Evalute";
+import Winteraddition from "./Winteraddition";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Spotlight />
       <Discount />
       <Evalute />
+      <Winteraddition />
     </div>
   );
 };
